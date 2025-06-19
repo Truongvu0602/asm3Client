@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a:hover {
+  color: #e2c000;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none !important;
+  transition: all 0.2s;
+}

@@ -1,0 +1,50 @@
+.sub_formWrapper {
+  width: 100%;
+
+  margin: 2rem 0;
+}
+
+.sub_title {
+  font-weight: 350;
+}
+
+.sub_smallText {
+  color: darkgray;
+}
+
+.sub_form {
+  width: 100%;
+  height: auto;
+}
+
+.sub_formControlInline {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sub_formInput {
+  border: 0.5px solid darkgray;
+  outline: none;
+  height: 3.5rem;
+  outline: none;
+  width: 30rem;
+}
+
+.sub_formButton {
+  height: 3.5rem;
+  width: 7rem;
+  outline: none;
+  border: 0.5px solid black;
+  background-color: black;
+  color: white;
+  transition: all 0.2s;
+}
+
+.sub_formButton:hover {
+  border: 0.5px solid darkgray;
+  background-color: darkgray;
+  color: black;
+}

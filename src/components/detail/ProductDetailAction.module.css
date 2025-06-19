@@ -1,0 +1,56 @@
+/* Product detail action - add to cart */
+
+.detailAction{
+  display: flex;
+  margin: 2rem 0;
+}
+
+.detailAction_quantity {
+  width: 16rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
+
+.detailAction_text{
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 0.1rem;
+}
+
+.detailAction_input {
+  border: none;
+  outline: none;
+  width: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.detailAction_left,
+.detailAction_right {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.detailAction_input::-webkit-outer-spin-button,
+.detailAction_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.detailAction_btn{
+  height: 4rem;
+  border: 1px solid transparent;
+  background-color: black;
+  color: white;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.detailAction_btn:hover {
+  
+}
+
+

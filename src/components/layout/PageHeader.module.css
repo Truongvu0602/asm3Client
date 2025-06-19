@@ -1,0 +1,21 @@
+.pageHeader_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  background-color: #f4f5f9;
+}
+
+.pageHeader_wrapper > h1 {
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.pageHeader_wrapper > p {
+  color: darkgray;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+.cart_coupon {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.cart_couponInput,
+.cart_couponBtn {
+  height: 3rem;
+}
+
+.cart_couponInput {
+  border: 1px solid black;
+  padding-left: 1rem;
+  outline: none;
+}
+
+.cart_couponBtn {
+  background-color: black;
+  color: white;
+  border: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart_couponBtn:hover {
+  background-color: gray;
+}

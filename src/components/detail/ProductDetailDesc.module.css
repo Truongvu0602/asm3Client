@@ -1,0 +1,26 @@
+.productDescription {
+  margin-top: 3rem;
+}
+
+.productDescription_title {
+  color: white;
+  background-color: black;
+  width: fit-content;
+  padding: 0.7rem;
+  text-transform: uppercase;
+}
+
+.productDescription_text {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: black;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.productDescription_contentHeader{
+  color: gray;
+  font-size: 1rem;
+  font-weight: 350;
+}

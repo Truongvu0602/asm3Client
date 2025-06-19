@@ -1,0 +1,22 @@
+.features_text, .features_smallText {
+  text-align: center;
+}
+
+.features_text {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 350;
+}
+
+.features_smallText {
+  font-weight: lighter;
+  color: darkgray;
+}
+
+.features_wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #f4f5f9;
+  margin: 2rem 0;
+  padding: 3rem 0;
+}

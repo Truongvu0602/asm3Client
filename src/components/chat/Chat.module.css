@@ -1,0 +1,9 @@
+.chatFloating {
+  position: fixed;
+  bottom: 7rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 99999999;
+}

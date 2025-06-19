@@ -1,0 +1,22 @@
+.checkout_orderList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.checkout_orderItem {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.checkout_orderItemName {
+  font-weight: bold;
+  max-width: 50%;
+}
+
+.checkout_orderItemPrice {
+  color: gray;
+}

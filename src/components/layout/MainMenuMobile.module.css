@@ -1,0 +1,40 @@
+.menu_mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu_mobile {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    right: 0;
+    top: 45px;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: auto;
+  }
+
+  .menu_mobile_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .active {
+    color: #e2c000 !important;
+  }
+
+  .show {
+    opacity: 1;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+}

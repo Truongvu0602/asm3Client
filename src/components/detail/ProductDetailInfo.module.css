@@ -1,0 +1,17 @@
+/* Product detail Info */
+
+.detailInfo_price { 
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: lighter;
+}
+
+.detailInfo_shortDesc {
+  text-align: justify;
+}
+
+.detailInfo_category span {
+  color: gray;
+  font-weight: lighter;
+  margin: 0 1rem;
+}

@@ -1,0 +1,21 @@
+.card {
+  width: 38rem;
+  height: auto;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0 5rem;
+}
+
+.card_headerTitle {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 2rem;
+  font-weight: 350;
+  color: gray;
+}
+
+.card_content {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,28 @@
+.shopNav_wrapper {
+  text-transform: uppercase;
+  z-index: 99;
+  padding-top: 3rem;
+}
+
+.shopNav_text {
+  font-weight: 350;
+  letter-spacing: 0.1rem;
+}
+
+.shopNav_brand {
+  color: white;
+  background-color: black;
+  padding: 0.5rem 1rem;
+}
+
+.shopNav_list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.shopNav_listHeader {
+  padding: 0.5rem 1rem;
+  background-color: #f4f5f9;
+  color: black;
+}
+

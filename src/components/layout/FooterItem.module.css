@@ -1,0 +1,23 @@
+.footer_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer_title {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.footer_item {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footer_item a {
+  color: darkgray !important;
+  text-decoration: none;
+}

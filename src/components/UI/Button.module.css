@@ -1,0 +1,36 @@
+.btn,
+a {
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.btn,
+a {
+  text-decoration: none;
+}
+
+.btn a {
+  color: white !important;
+}
+
+.btn.light {
+  background-color: white;
+  color: black;
+}
+
+.btn.dark {
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+.btn_icon {
+  margin: 0 5px;
+}

@@ -1,0 +1,32 @@
+tr {
+  color: gray;
+}
+
+
+.orderDetailBtn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.orderDetailBtn:hover{
+  background-color: #f4f5f9;
+}
+
+.orderContentTable{
+  max-width: 100%;
+  overflow: scroll;
+}
+
+.orderTableContent{
+}
+
+.orderRowContent > td{
+  overflow: auto;
+  font-size: 12px;
+}

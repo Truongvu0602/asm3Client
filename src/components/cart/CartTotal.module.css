@@ -1,0 +1,36 @@
+.cartTotal {
+  width: 100%;
+  background-color: #f4f5f9;
+  padding: 2rem;
+}
+
+.cartTotal h1 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.cartTotal_subtotal,
+.cartTotal_total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartTotal_subtotalText,
+.cartTotal_totalText {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+
+.cartTotal_subtotalPrice{
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  color: gray;
+
+}
+.cartTotal_totalPrice{
+  margin-bottom: 0;
+  color: gray;
+}

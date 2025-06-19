@@ -1,0 +1,8 @@
+.product_list_header{
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.product_list_subText {
+  color: gray;
+}

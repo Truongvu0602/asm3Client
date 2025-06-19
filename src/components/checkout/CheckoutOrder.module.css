@@ -1,0 +1,26 @@
+.checkout_order{
+  background-color : #f4f5f9;;
+  padding: 1.5rem;
+}
+
+
+.checkout_orderTitle {
+  text-transform: uppercase;
+  font-weight: 350;
+  margin-bottom: 1rem;
+}
+
+.checkout_orderTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout_orderTotal > p {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.checkout_orderTotal > span {
+  font-size: 1.3rem;
+}
